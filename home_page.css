@@ -17,6 +17,7 @@
 
 body{
     font-family: Roboto;
+    margin: 0px;
 }
 
 body img{
@@ -32,7 +33,7 @@ img{
 
 header{
     width: auto;
-    height: 2.5em;
+    height: 3.5em;
     display: flex;
     justify-content: center;
 }
@@ -40,7 +41,60 @@ header{
 header img{
     height: 1.55em;
     width: 9em;
-    margin-top: 0.3em;
+    margin-top: 1em;
+}
+
+/* LOADER */
+
+.loader{
+
+    display: none;
+
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    inset: 0;
+    height: 100vh;
+    opacity: 0.95;
+    animation: disappear 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes disappear{
+    0%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+    }
+}
+
+.lds-dual-ring {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #9356DC transparent #FF79DA transparent;
+  animation: lds-dual-ring 1.8s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* LOCATION */
@@ -106,20 +160,20 @@ header img{
 }
 
 .section_one a:hover{
-    opacity: 0.9;
+    opacity: 0.85;
     box-shadow: 1px 1px 12px 1px #4F4F4F;
 }
 
 /* SECTION FUNCTIONING */
-
-.section_two h2{
-    margin-left: 0.5em;
+.section_two{
+    margin: 1em;
 }
 
 .section_two ul{
     display: flex;
     flex-direction: column;
     grid-gap: 1.5em;
+    padding: 0;
 }
 
 .section_two li{
@@ -130,6 +184,7 @@ header img{
     box-shadow: 0.2em 0.2em 1em lightgrey;
     border-radius: 1em;
     height: 3.7em;
+    width: 100%;
 }
 
 .section_two li:hover{
@@ -182,8 +237,7 @@ header img{
     grid-gap: 1em;
 }
 
-.card
-{
+.card{
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -194,13 +248,11 @@ header img{
     box-shadow: 1px 1px 5px lightgrey;
 }
 
-.card img
-{
+.card img{
     height: 9em;
 }
 
-.card h3
-{
+.card h3{
     font-size: 1em;
     margin-bottom: -0.5em;
 }
@@ -208,6 +260,11 @@ header img{
 .card p
 {
     font-size: 0.8em;
+}
+
+.card i{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .contents{
@@ -289,6 +346,11 @@ footer a:hover{
         width: 14em;
     }
 
+    footer{
+        padding: 0em 2em 2em 2em;
+
+    }
+
     footer .link{
         flex-direction: row;
         grid-column-gap: 3em;
@@ -303,7 +365,7 @@ footer a:hover{
 
 @media (min-width: 1024px) and (max-width: 2560px){
     header{
-        height: 3.5em;
+        height: 4.5em;
     }
 
     header img{
@@ -379,6 +441,11 @@ footer a:hover{
 
     .card i{
         font-size: 1.5em;
+    }
+
+    footer{
+        padding: 0em 2em 2em 2em;
+
     }
 
     footer h2{
