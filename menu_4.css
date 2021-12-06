@@ -16,7 +16,7 @@
 /* BODY */
 
 body{
-    font-family: Roboto;
+    font-family: "Roboto", Arial;
     margin: 0;
 }
 
@@ -50,7 +50,6 @@ header a{
     color: black;
 }
 
-
 /* TITLE */
 .title_one {
     display: flex;
@@ -63,7 +62,7 @@ header a{
 }
 
 h1{
-    font-family: Shrikhand;
+    font-family: "Shrikhand", Arial;
     font-weight: normal;
     font-size: 1.4em;
 }
@@ -85,7 +84,7 @@ h1{
 
 .section_two_menu_one h2{
     font-weight: normal;
-    font-family: Roboto-thin;
+    font-family: "Roboto-thin", Arial;
     font-size: 1.1em;
     margin-bottom: -0.5em;
 }
@@ -109,7 +108,7 @@ h1{
 
 .card h3{
     margin-bottom: -0.8em;
-    font-family: Roboto-Medium;
+    font-family: "Roboto-Medium", Arial;
     font-weight: normal;
     font-size: 1em;
     padding: 0em 0em 0em 1em;
@@ -119,7 +118,7 @@ h1{
 }
 
 .card p{
-    font-family: Roboto-Thin;
+    font-family: "Roboto-Thin", Arial;
     font-size: 0.8em;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -143,14 +142,14 @@ h1{
 }
 
 #text{
-    font-family: Roboto;
+    font-family: "Roboto", Arial;
 }
 
 .price{
     display: flex;
     align-items: flex-end;
     margin-left: auto !important;
-    font-family: Roboto-Medium !important;
+    font-family: "Roboto-Medium", Arial !important;
 }
 
 .check{
@@ -192,12 +191,10 @@ h1{
 @keyframes slides{  
     0%{
         transform: translateY(500px);
-        opacity: 0;
     }
 
     100%{
         transform: translateY(0);
-        opacity: 1;
     }
 }
 
@@ -260,7 +257,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Roboto-Medium;
+    font-family: "Roboto-Medium", Arial;
     border: transparent;
     transition: 1s;
 }
@@ -286,7 +283,7 @@ footer{
 }
 
 footer h2{
-    font-family: Shrikhand;
+    font-family: "Shrikhand", Arial;
     font-weight: normal;
     font-size: 1em;
 }
