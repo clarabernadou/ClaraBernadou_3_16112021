@@ -278,6 +278,17 @@ header img{
     height: 3em;
 }
 
+.far{
+    font-size: 4em;
+    color: black;
+    transition: 1000ms;
+}
+
+.far:hover{
+    font-weight: bold;
+    color: #FF79DA;
+}
+
 /* NEWS */
 
 .new{
