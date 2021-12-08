@@ -47,9 +47,6 @@ header img{
 /* LOADER */
 
 .loader{
-
-    display: none;
-
     background-color: white;
     position: fixed;
     z-index: 1;
@@ -58,6 +55,10 @@ header img{
     opacity: 0.95;
     animation: disappear 2s;
     animation-fill-mode: forwards;
+}
+
+body:hover .loader{
+    display: none;
 }
 
 @keyframes disappear{
@@ -155,7 +156,7 @@ header img{
     justify-content: center;
     background: rgb(147,86,220);
     background: linear-gradient(352deg, rgba(147,86,220,1) 9%, rgba(147,86,220,1) 34%, rgba(255,121,218,1) 100%, rgba(255,121,218,1) 100%); 
-    font-family: "Roboto-Medium", Arial;
+    font-family: "Roboto", Arial;
     transition: 1s;
 }
 
@@ -279,7 +280,7 @@ header img{
 }
 
 .far{
-    font-size: 4em;
+    font-size: 1.5em;
     color: black;
     transition: 1000ms;
 }
@@ -459,6 +460,10 @@ footer a:hover{
 
     .card i{
         font-size: 1.5em;
+    }
+
+    .far{
+        font-size: 4em;
     }
 
     .new{

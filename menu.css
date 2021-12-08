@@ -54,6 +54,8 @@ header a{
 
 /* TITLE */
 .title_one {
+    position: relative;
+    margin: -2em 0em 0em 0em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -174,8 +176,11 @@ h1{
     display: flex;
 }
 
+.fa-heart i{
+    font-size: 1.5em;
+}
+
 .far{
-    font-size: 4em;
     color: black;
     transition: 1000ms;
 }
@@ -359,7 +364,7 @@ footer a:hover{
     }
 
     header img{
-        height: 2.55em;
+        height: 2.59em;
         width: 14.9em;
     }
 
@@ -397,6 +402,10 @@ footer a:hover{
 
     .card p{
         font-size: 1em;
+    }
+
+    .far{
+        font-size: 4em;
     }
 
     .button{
