@@ -159,8 +159,8 @@ h1{
 .check{
     background-color: #99E2D0;
     color: white;
-    margin-right: -5rem;
-    width: 5em;
+    margin-right: -3.7em;
+    width: 3.7em;
     margin-left: 1em;
     transition: margin-right 1s;
     display: flex;

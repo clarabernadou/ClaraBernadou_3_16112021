@@ -79,15 +79,15 @@ body:hover .loader{
     height: 100%;
 }
 .lds-dual-ring:after {
-  content: " ";
-  display: block;
-  width: 64px;
-  height: 64px;
-  margin: 8px;
-  border-radius: 50%;
-  border: 6px solid #fff;
-  border-color: #9356DC transparent #FF79DA transparent;
-  animation: lds-dual-ring 1.8s linear infinite;
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #9356DC transparent #FF79DA transparent;
+    animation: lds-dual-ring 1.8s linear infinite;
 }
 @keyframes lds-dual-ring {
   0% {
@@ -197,6 +197,7 @@ body:hover .loader{
 
 .section_two i{
     color: #777778;
+    font-family: "Font Awesome 5 Free";
 }
 
 .section_two p{
@@ -269,6 +270,7 @@ body:hover .loader{
 .card i{
     display: flex;
     justify-content: flex-end;
+    font-family: "Font Awesome 5 Free";
 }
 
 .contents{
@@ -283,6 +285,7 @@ body:hover .loader{
     font-size: 1.5em;
     color: black;
     transition: 1000ms;
+    font-family: "Font Awesome 5 Free";
 }
 
 .far:hover{
@@ -342,6 +345,7 @@ footer .link{
 
 footer i{
     margin: 0em 0.5em 0em 0em;
+    font-family: "Font Awesome 5 Free";
 }
 
 footer a:hover{
