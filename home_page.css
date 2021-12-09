@@ -161,7 +161,7 @@ body:hover .loader{
 }
 
 .section_one a:hover{
-    opacity: 0.85;
+    opacity: 0.78;
     box-shadow: 1px 1px 12px 1px #4F4F4F;
 }
 
@@ -193,6 +193,10 @@ body:hover .loader{
 .section_two li:hover{
     background-color: #ebd6ff;
     box-shadow: 1px 1px 5px #4F4F4F
+}
+
+.section_two li:hover i{
+    color: #9356DC;
 }
 
 .section_two i{
