@@ -285,16 +285,19 @@ body:hover .loader{
     height: 3em;
 }
 
-.far{
-    font-size: 1.5em;
-    color: black;
+.fas{
+    font-size: 1.2em;
+    color: white;
+    -webkit-text-stroke-color: grey;
+    -webkit-text-stroke-width: 1px;
     transition: 1000ms;
     font-family: "Font Awesome 5 Free";
 }
 
-.far:hover{
+.fas:hover{
     font-weight: bold;
     color: #FF79DA;
+    -webkit-text-stroke-color: #FF79DA;
 }
 
 /* NEWS */

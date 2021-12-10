@@ -140,6 +140,7 @@ h1{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    width:  100%;
 }
 
 .other{
@@ -155,6 +156,8 @@ h1{
     align-items: flex-end;
     margin-left: auto !important;
     font-family: "Roboto-Medium", Arial !important;
+    margin-right: 1.5em;
+    padding-right: 1em;
 }
 
 .check{
@@ -162,7 +165,6 @@ h1{
     color: white;
     margin-right: -2.3em;
     width: 2.3em;
-    margin-left: 1em;
     transition: margin-right 1s;
     display: flex;
     align-items: center;
