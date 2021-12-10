@@ -287,17 +287,21 @@ body:hover .loader{
 
 .fas{
     font-size: 1.2em;
-    color: white;
-    -webkit-text-stroke-color: grey;
-    -webkit-text-stroke-width: 1px;
     transition: 1000ms;
     font-family: "Font Awesome 5 Free";
 }
 
-.fas:hover{
+.fa-heart:hover{
     font-weight: bold;
     color: #FF79DA;
     -webkit-text-stroke-color: #FF79DA;
+}
+
+.fa-heart{
+    font-size: 1.2em;
+    color: white;
+    -webkit-text-stroke-color: grey;
+    -webkit-text-stroke-width: 1px;
 }
 
 /* NEWS */
